@@ -21,6 +21,8 @@ cask "vocamac" do
   depends_on arch: :arm64
   depends_on macos: ">= :ventura"
 
+  conflicts_with cask: "vocamac-nightly"
+
   app "VocaMac.app"
 
   zap trash: [

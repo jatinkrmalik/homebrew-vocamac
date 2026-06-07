@@ -9,6 +9,16 @@ brew tap jatinkrmalik/vocamac
 brew install --cask vocamac
 ```
 
+## Nightly Builds
+
+For early access to the latest features, install the nightly build:
+
+```bash
+brew install --cask vocamac-nightly
+```
+
+> **Note:** Nightly builds may be unstable. Use the stable release for daily use.
+
 ## Upgrade
 
 ```bash
