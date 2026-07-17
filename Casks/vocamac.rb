@@ -1,6 +1,6 @@
 cask "vocamac" do
-  version "0.7.0"
-  sha256 "8fce9b623955fc05763ab7548dba1e8cb2f7835f366f530f88b54a9eb8b0ccf0"
+  version "0.7.1"
+  sha256 "f837a8174c65cb09c0b15cecb2cc12e428f9af18a13e68818cbb2dcc0334491f"
 
   url "https://github.com/jatinkrmalik/vocamac/releases/download/v#{version}/VocaMac-#{version}-arm64.dmg",
       verified: "github.com/jatinkrmalik/vocamac/"
