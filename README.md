@@ -34,13 +34,21 @@ brew untap vocahq/vocamac
 
 ## Migrating from the old tap
 
-If you previously tapped via the personal account (`jatinkrmalik/vocamac`), old remotes still work through GitHub redirects. For a clean switch:
+If you previously tapped via the personal account (`jatinkrmalik/vocamac`), remove it before using the org tap. Keeping both causes Homebrew to fail with:
 
-```bash
-brew untap jatinkrmalik/vocamac && brew tap vocahq/vocamac
+```text
+Error: Cask vocamac exists in multiple taps:
+       * jatinkrmalik/vocamac/vocamac
+       * vocahq/vocamac/vocamac
 ```
 
-Installed apps are untouched.
+Fix (installed apps are untouched):
+
+```bash
+brew untap jatinkrmalik/vocamac
+brew tap vocahq/vocamac
+brew install --cask vocamac
+```
 
 ## Links
 
