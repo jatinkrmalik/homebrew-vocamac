@@ -2,8 +2,8 @@ cask "vocamac" do
   version "0.7.2"
   sha256 "de06136da8d04cb449c10f1dbcca5ddfffa6e7ded72ecedda177c7a49f156f4d"
 
-  url "https://github.com/jatinkrmalik/vocamac/releases/download/v#{version}/VocaMac-#{version}-arm64.dmg",
-      verified: "github.com/jatinkrmalik/vocamac/"
+  url "https://github.com/VocaHQ/vocamac/releases/download/v#{version}/VocaMac-#{version}-arm64.dmg",
+      verified: "github.com/VocaHQ/vocamac/"
   name "VocaMac"
   desc "Local voice-to-text dictation powered by WhisperKit"
   homepage "https://vocamac.com/"
